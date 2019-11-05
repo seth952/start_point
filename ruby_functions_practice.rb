@@ -27,6 +27,7 @@ def length_of_string()
 
 
   end
+
 def join_string(string_1, string_2)
   return(string_1 + string_2)
 
@@ -54,7 +55,7 @@ end
 end
 
 def number_to_full_name__month_9(month)
-  case month
+  case
   when  month == 9
     return "September"
 end
