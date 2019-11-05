@@ -59,20 +59,23 @@ def number_to_full_name__month_9()
   when  == 9
     return "September"
 end
-end 
+end
 def number_to_short_month_name__month_1()
+month = 1
   case month
     when  == 1
     return "Jan"
   end
 end
 def number_to_short_month_name__month_4()
+  month = 4
   case month
   when  == 4
     return "Apr"
   end
 end
 def number_to_short_month_name__month_10()
+  month = 10
   case month
   when  == 10
     return "Oct"
