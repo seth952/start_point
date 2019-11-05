@@ -38,46 +38,42 @@ def add_string_as_number()
 return("1".to_i + "2".to_i)
 
 end
-def number_to_full_name__month_3(
-month = 1
-case month
-  when  == 1
+
+def number_to_full_name__month_1(month)
+  case
+  when month == 1
   return "January"
 end
 end
-def number_to_full_name__month_3()
-  month = 3
-  case month
-  when  == 3
+
+def number_to_full_name__month_3(month)
+  case
+  when month == 3
     return "March"
 end
 end
 
-def number_to_full_name__month_9()
-  month = 9
+def number_to_full_name__month_9(month)
   case month
-  when  == 9
+  when  month == 9
     return "September"
 end
 end
-def number_to_short_month_name__month_1()
-month = 1
-  case month
-    when  == 1
+def number_to_short_month_name__month_1(month)
+  case
+  when month == 1
     return "Jan"
   end
 end
-def number_to_short_month_name__month_4()
-  month = 4
-  case month
-  when  == 4
+def number_to_short_month_name__month_4(month)
+  case
+  when month == 4
     return "Apr"
   end
 end
-def number_to_short_month_name__month_10()
-  month = 10
-  case month
-  when  == 10
+def number_to_short_month_name__month_10(month)
+  case
+  when  month == 10
     return "Oct"
   end
 end
