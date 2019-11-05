@@ -48,7 +48,7 @@ end
 def number_to_full_name__month_3()
   month = 3
   case month
-    when  == 1
+  when  == 3
     return "March"
 end
 end
@@ -56,9 +56,10 @@ end
 def number_to_full_name__month_9()
   month = 9
   case month
-    when  == 1
+  when  == 9
     return "September"
 end
+end 
 def number_to_short_month_name__month_1()
   case month
     when  == 1
